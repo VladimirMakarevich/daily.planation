@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Daily.Checklist.Views.Home.HomePage"
+             Title="Home"
+             Visual="Material">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Welcome to Home!"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <Button Text="Click Me"
+                    VerticalOptions="CenterAndExpand"
+                    HorizontalOptions="CenterAndExpand"/>
+            <Stepper Minimum="0" Maximum="10" Increment="1" 
+                     VerticalOptions="CenterAndExpand"
+                     HorizontalOptions="CenterAndExpand"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

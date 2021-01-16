@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Daily.Checklist.App">
+    <Application.Resources>
+        <ResourceDictionary>
+            <Color x:Key="Primary" />
+            <Color x:Key="PrimaryLight" />
+            <Color x:Key="PrimaryDark" />
+            <Color x:Key="Accent" />
+        </ResourceDictionary>
+        <Style x:Key="ButtonOutline" TargetType="Button">
+            <Setter Property="BackgroundColor" Value="Transparent" />
+            <Setter Property="TextColor" Value="{StaticResource PrimaryDark}" />
+            <Setter Property="BorderColor" Value="{StaticResource Primary}" />
+            <Setter Property="BorderWidth" Value="1" />
+        </Style>
+    </Application.Resources>
+</Application>
